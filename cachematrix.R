@@ -1,7 +1,10 @@
 ## The functions below are for Coursera Course - R Programming
 ## The purpose of the functions is to take a square invertible matrix 
 ## and calculate the inverse.  The inverse will then be cached to be
-## usable again without needing to recalculate the invesre.
+## usable again without needing to recalculate the inverse.
+## The assignment assumes the matrix supplied is always invertible.
+## Not test was added to validate whether it was invertible based on the
+## homework assumption.
 
 ## makeCacheMatrix creates and returns functions that
 ## are used by cachSolve to get the inverted matrix in cache
